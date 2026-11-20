@@ -32,4 +32,9 @@ let getJohnOrders = () => {
   });
 };
 
-// Start coding here
+getJohnProfile().then((data) => {
+  console.log(data);
+});
+getJohnOrders().then((data2) => {
+  console.log(data2);
+});

@@ -12,4 +12,8 @@ let getJohnProfile = () => {
     );
   });
 };
-// Start coding here
+async function userProfile() {
+  const data = await getJohnProfile();
+  console.log(data);
+};
+userProfile();
